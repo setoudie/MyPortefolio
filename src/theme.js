@@ -185,9 +185,9 @@ export const materialTealTheme = {
   body: "#ffffff",
   text: "#05505E",
   expTxtColor: "#000000",
-  highlight: "#a1dded",
+  highlight: "#9db5bb",
   dark: "#07292c",
-  secondaryText: "#05505E",
+  secondaryText: "#055a5e",
   imageHighlight: "#0a343c",
   compImgHighlight: "#E1E2E1",
   jacketColor: "#E1E2E1",
@@ -195,4 +195,4 @@ export const materialTealTheme = {
   splashBg: "#05505E",
 };
 
-export const chosenTheme = blueTheme;
+export const chosenTheme = materialTealTheme;
