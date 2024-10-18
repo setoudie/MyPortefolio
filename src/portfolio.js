@@ -537,7 +537,7 @@ const certifications = {
 
 // Experience Page
 const experience = {
-  title: "Experience",
+  title: "Experiences",
   subtitle: "Work, Internship and Volunteership",
   description:
     "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
@@ -740,7 +740,7 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "ppb.png",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
   },
@@ -752,15 +752,15 @@ const contactPageData = {
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
-    title: "Address",
-    subtitle: "Saratoga Ave, San Jose, CA, USA 95129",
-    locality: "San Jose",
-    country: "USA",
-    region: "California",
+    title: "Addresse",
+    subtitle: "Dakar Dieupeul, Senegal",
+    locality: "Dieupeul",
+    country: "Senegal",
+    region: "Dakar",
     postalCode: "95129",
-    streetAddress: "Saratoga Avenue",
+    streetAddress: "Dieupeul 3",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://maps.app.goo.gl/NvYZqa34Wye4tpS17",
+    location_map_link: "https://maps.app.goo.gl/KP84xT4KjyQdZDAPA",
   },
   phoneSection: {
     title: "",
