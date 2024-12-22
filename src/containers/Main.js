@@ -15,17 +15,18 @@ export default class Main extends Component {
     return (
       <BrowserRouter basename="/">
         <Switch>
-          <Route
-            path="/"
-            exact
-            render={(props) =>
-              settings.isSplash ? (
-                <Splash {...props} theme={this.props.theme} />
-              ) : (
-                <Home {...props} theme={this.props.theme} />
-              )
-            }
-          />
+          {/*Cette route la page loader probleme avec le splash*/}
+          {/*<Route*/}
+          {/*  path="/"*/}
+          {/*  exact*/}
+          {/*  render={(props) =>*/}
+          {/*    settings.isSplash ? (*/}
+          {/*      <Splash {...props} theme={this.props.theme} />*/}
+          {/*    ) : (*/}
+          {/*      <Home {...props} theme={this.props.theme} />*/}
+          {/*    )*/}
+          {/*  }*/}
+          {/*/>*/}
           <Route
             path="/home"
             render={(props) => <Home {...props} theme={this.props.theme} />}
@@ -44,9 +45,9 @@ export default class Main extends Component {
             )}
           />
           <Route
-            path="/opensource"
+            path="/experience"
             render={(props) => (
-              <Opensource {...props} theme={this.props.theme} />
+              <Experience {...props} theme={this.props.theme} />
             )}
           />
           <Route
