@@ -15,7 +15,7 @@ export default class Main extends Component {
     return (
       <BrowserRouter basename="/">
         <Switch>
-          {/*Cette route  la page loader probleme avec le splash*/}
+          {/*Cette route la page loader probleme avec le splash*/}
           {/*<Route*/}
           {/*  path="/"*/}
           {/*  exact*/}
